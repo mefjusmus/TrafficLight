@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     @IBOutlet var greenView: UIView!
     @IBOutlet var startButton: UIButton!
     
-    let lightOn: CGFloat = 1.0
-    let lightOff: CGFloat = 0.3
-    var currentColor = CurrentColor.red
+    private let lightOn: CGFloat = 1.0
+    private let lightOff: CGFloat = 0.3
+    private var currentColor = CurrentColor.red
     
     override func viewDidLoad() {
         super.viewDidLoad()
